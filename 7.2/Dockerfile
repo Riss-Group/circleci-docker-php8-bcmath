@@ -5,7 +5,7 @@ USER root
 
 # Install custom extensions
 RUN apt install -y libsqlite3-dev zlib1g-dev
-RUN docker-php-ext-install zip bcmath
+RUN docker-php-ext-install zip bcmath sockets
 
 # back to circleci user
 USER circleci
