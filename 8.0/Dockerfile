@@ -1,4 +1,4 @@
-FROM circleci/php:7.2-apache-node-browsers
+FROM circleci/php:8.0-apache-node-browsers
 
 # use root user for install
 USER root
